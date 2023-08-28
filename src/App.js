@@ -1,12 +1,9 @@
 import React from 'react';
+import RepositoryList from './components/RepositoryList';
 
 function App() {
   return (
-    <div>
-      <h1>
-        Hello World!
-      </h1>
-    </div>
+    <RepositoryList />
   );
 }
 
